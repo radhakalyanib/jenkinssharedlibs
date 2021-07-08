@@ -1,3 +1,3 @@
 def call(appname) {
-echo "Application name :  ${appname)"
+echo "Application name :  ${appname}"
 }
