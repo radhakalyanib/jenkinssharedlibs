@@ -1,5 +1,5 @@
 def call(appname) {
-echo "Application name demo today  :  ${appname}"
+echo "Application name :  ${appname}"
 def proc = "/home/linuxbrew/.linuxbrew/bin/argocd app sync ${appname}".execute();
 def outputStream = new StringBuffer();
 proc.waitForProcessOutput(outputStream, System.err)
